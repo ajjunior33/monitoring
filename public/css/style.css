@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+input,
+textarea,
+button,
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+#content{
+  margin-top:50px
+}
+.box{
+  margin-top:15px
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding: 15px 0;
+  background-color:rgba(0, 0, 0, .2);
+  text-align: center; 
+}
+.plain{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.plain > .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:   red;
+  padding: 10px;
+}

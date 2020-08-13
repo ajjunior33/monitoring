@@ -1,0 +1,30 @@
+{% extends 'template/index.html' %} {% block content %}
+<div class="plain">
+    <div class="box col-sm-3">
+        <strong>Plano Mais vendido</strong>
+    </div>
+     <div class="box col-sm-3">
+        <strong>Valor plano mais vendido</strong>
+    </div>
+
+</div>
+<div class="row">
+  <div class="box col-sm-12 alert alert-success">
+    <h3 class="alert-heading">Pedidos do Dia</h3>
+    <h1 class="pedidos">0</h1>
+  </div>
+  <div class="box col-sm-12 alert alert-warning">
+    <h3 class="alert-heading">Suportes do Dia</h3>
+    <h1 class="suportes">0</h1>
+  </div>
+  <div class="box col-sm-12 alert alert-danger">
+    <h3 class="alert-heading">Cancelamentos do Dia</h3>
+    <h1 class="cancelamentos">0</h1>
+  </div>
+</div>
+
+{% endblock content %} {% block js %}
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/js/index.js"></script>
+
+{% endblock js %}
